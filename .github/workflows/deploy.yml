@@ -1,6 +1,8 @@
 name: Deploy
 on:
-  push
+  push:
+    branches:
+      - "*"
   workflow_dispatch:
     inputs:
     node_version:
